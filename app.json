@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Code Staff",
+    "slug": "codestaff",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codestaff",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.codestaff",
+      "versionCode": 1
+    },
+    "extra": {
+      "facebook": {
+        "appId": "2834846270123290"
+      }
+    },
+    "description": "Code Staff Application with login and splash screen"
+  }
+}
